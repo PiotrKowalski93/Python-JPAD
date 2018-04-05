@@ -21,6 +21,19 @@ def __getFunName(x):
         4: 'modulo'
     }.get(x, 'unknown')    
     
+def __getFun(funcNumber, a, b):
+    return {
+        0: lambda : add(a,b),
+        1: lambda : subtract(a, b),
+        2: lambda : multiply(a, b),
+        3: lambda : divide(a, b),
+        4: lambda : modulo(a, b)
+    }.get(funcNumber, 'unknown')    
+
+def doCalc(funcNumber, a, b):
+    print('Operacja: ' + __getFunName(funcNumber) + ', wynik: ' + str(__getFun(funcNumber, a, b)()))
+
+    
 def __addLogToFile(operacja, wynik,a,b):
     plik = open(fileName,'a')
     plik.write('Operacja: ' +  __getFunName(operacja) + ' na liczbach: ' + str(a) + ', ' + str(b) + ', wynik: ' + str(wynik) +'\n')

@@ -1,0 +1,6 @@
+Operacja: dodawanie na liczbach: 2, 3, wynik: 5
+Operacja: odejmowanie na liczbach: 10, 3, wynik: 7
+Operacja: mnozenie na liczbach: 3, 2, wynik: 6
+Operacja: dzielenie na liczbach: 20, 2, wynik: 10.0
+Operacja: modulo na liczbach: 15, 4, wynik: 3
+Operacja: odejmowanie na liczbach: 2, 2, wynik: 0

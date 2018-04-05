@@ -11,6 +11,10 @@ calculator.multiply(3,2)
 calculator.divide(20,2)
 calculator.modulo(15,4)
 
+calculator.doCalc(0,2,2)
+calculator.doCalc(1,2,2)
+calculator.doCalc(2,2,2)
+
 """
 ***** Getting current session log: *****
 """

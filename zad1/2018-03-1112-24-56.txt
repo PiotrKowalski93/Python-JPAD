@@ -1,0 +1,1 @@
+Operacja: odejmowanie na liczbach: 2, 2, wynik: 0
